@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Prototype</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar" aria-label="Header">
+    <div class="topbar__inner">
+      <img class="topbar__logo" src="./assets/bet365.svg" alt="bet365" />
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <!-- OFFERS / HERO -->
+    <section class="section card hero" aria-label="Football betting offer">
+      <div class="hero__media" role="img" aria-label="Stadium banner"></div>
+
+      <div class="hero__body">
+        <h2 class="kicker sectionTitle">FOOTBALL BETTING</h2>
+
+        <h1 class="hero__title">
+          <span>2 GOALS</span><br />
+          <span>AHEAD EARLY</span><br />
+          <span>PAYOUT OFFER</span>
+        </h1>
+
+        <button class="btn btn--offer" type="button">View All Offers</button>
+
+        <p class="tcs tcs--repeat" aria-label="Terms and conditions">
+          T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s
+          apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply
+        </p>
+      </div>
+    </section>
+
+    <!-- GAMES / LUCKY SPADES -->
+    <section class="section card lucky" aria-label="Lucky Spades jackpot">
+      <div class="lucky__frame">
+        <img class="lucky__bg" src="./assets/GamesLuckySpadesGradientx2.png" alt="" aria-hidden="true" />
+        <div class="lucky__content">
+          <div class="lucky__logoWrap">
+            <img class="lucky__logo" src="./assets/GamesLuckySpadesLogo.svg" alt="Lucky Spades" />
+          </div>
+
+          <div class="lucky__jackpot">
+            <div class="lucky__spade--wrapper">
+              <img class="lucky__spade lucky__spade--left" src="./assets/GamesLuckySpadesSpade.svg" alt=""
+                aria-hidden="true" />
+              <div class="pill">JACKPOT</div>
+            </div>
+            <div class="lucky__amount">
+              <div>£540,6754</div>
+            </div>
+          </div>
+
+          <div class="lucky__tiers" aria-label="Jackpot tiers">
+            <div class="tier tier--left">
+              <div class="lucky__spade--wrapper">
+                <div class="pill">MINOR </div>
+
+                <img class="lucky__spade lucky__spade--left" src="./assets/GamesLuckySpadesSpade.svg" alt=""
+                  aria-hidden="true" />
+
+              </div>
+              <div class="tier__value">£660.70</div>
+
+            </div>
+
+            <div class="tier tier--right">
+              <div class="lucky__spade--wrapper">
+                <img class="lucky__spade lucky__spade--left" src="./assets/GamesLuckySpadesSpade.svg" alt=""
+                  aria-hidden="true" />
+
+                <div class="pill">MINI</div>
+
+              </div>
+              <div class="tier__value">£5.50</div>
+            </div>
+          </div>
+          <button class="btn btn--play" type="button">Play Now</button>
+          <p class="tcs">T&amp;C’s apply</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPORTS / PLAYER STATS -->
+    <section class="section card stats" aria-label="Player stats">
+      <h2 class="sectionTitle">PLAYER STATS</h2>
+
+      <div class="tabs" role="tablist" aria-label="Player categories">
+        <button class="tab is-active" type="button" role="tab" aria-selected="true">All</button>
+        <button class="tab" type="button" role="tab" aria-selected="false">Forwards</button>
+        <button class="tab" type="button" role="tab" aria-selected="false">Midfielders</button>
+        <button class="tab" type="button" role="tab" aria-selected="false">Defenders</button>
+        <button class="tab" type="button" role="tab" aria-selected="false">Goalkeepers</button>
+      </div>
+
+      <div class="players" role="list">
+        <button class="playerRow" type="button" aria-expanded="false">
+          <div class="playerRow__left">
+            <div class="playerRow__role">Forward</div>
+            <div class="playerName">
+              <div class="playerRow__name">Stephan Shaw</div>
+              <img class="chev" src="./assets/SportsPlayerStatsChevron.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+          <div class="playerRow__right">
+            <img class="flag" src="./assets/Flag1.svg" alt="Flag" />
+          </div>
+        </button>
+
+        <button class="playerRow" type="button" aria-expanded="false">
+          <div class="playerRow__left">
+            <div class="playerRow__role">Forward</div>
+            <div class="playerName">
+              <div class="playerRow__name">Alexa Richardson</div>
+              <img class="chev" src="./assets/SportsPlayerStatsChevron.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+          <div class="playerRow__right">
+            <img class="flag" src="./assets/Flag2.svg" alt="Flag" />
+          </div>
+        </button>
+
+        <button class="playerRow" type="button" aria-expanded="false">
+          <div class="playerRow__left">
+            <div class="playerRow__role">Forward</div>
+            <div class="playerName">
+              <div class="playerRow__name">Jana Strassmann</div>
+              <img class="chev" src="./assets/SportsPlayerStatsChevron.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+          <div class="playerRow__right">
+            <img class="flag" src="./assets/Flag3.svg" alt="Flag" />
+          </div>
+        </button>
+
+        <button class="playerRow" type="button" aria-expanded="false">
+          <div class="playerRow__left">
+            <div class="playerRow__role">Forward</div>
+            <div class="playerName">
+              <div class="playerRow__name">Niitthorn Prinya</div>
+              <img class="chev" src="./assets/SportsPlayerStatsChevron.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+          <div class="playerRow__right">
+            <img class="flag" src="./assets/FlagGrey.svg" alt="Flag placeholder" />
+          </div>
+        </button>
+      </div>
+
+      <button class="showMore" type="button">
+        Show More <img src="./assets/SportsPlayerStatsChevron.svg" alt="" aria-hidden="true" />
+      </button>
+
+      <button class="btn btn--market" type="button">See player markets</button>
+    </section>
+
+    <!-- NEWS -->
+    <section class="section card news" aria-label="Latest news">
+      <h2 class="sectionTitle">LATEST NEWS</h2>
+
+      <div class="newsGrid" aria-label="News list">
+        <article class="newsCard">
+          <div class="newsCard__img" style="background-image:url('./assets/NewsCarouselImage.jpg')"></div>
+          <div class="newsCard__body">
+            <div class="newsCard__tag">FOOTBALL</div>
+            <div class="newsCard__title">News Story Title</div>
+            <div class="newsCard__text">News Story News Story News Story News Story News Story</div>
+          </div>
+        </article>
+
+        <article class="newsCard">
+          <div class="newsCard__img" style="background-image:url('./assets/NewsCarouselImage.jpg')"></div>
+          <div class="newsCard__body">
+            <div class="newsCard__tag">FOOTBALL</div>
+            <div class="newsCard__title">News Story Title</div>
+            <div class="newsCard__text">News Story News Story News Story News Story News Story</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- MEMBERS -->
+    <section class="section card members" aria-label="New customer">
+      <div class="members__bg" aria-hidden="true"></div>
+      <div class="members__content">
+        <div class="members__kicker">NEW CUSTOMER</div>
+        <h2 class="members__title">Great things<br />are waiting</h2>
+        <p class="members__text">Become a member and discover all that awaits</p>
+        <button class="btn btn--join" type="button">Join now</button>
+
+        <p class="tcs tcs--repeat">
+          T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s
+          apply&nbsp;&nbsp;T&amp;C’s apply&nbsp;&nbsp;T&amp;C’s apply
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
